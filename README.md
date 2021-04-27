@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int main(){
 char s1[]="Tajmahal";
 char s2[8];
