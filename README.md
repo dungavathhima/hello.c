@@ -1,4 +1,4 @@
-Program 1:sizeof float,int,char,double:
+
 
 include <iostream>
 int main()
@@ -40,8 +40,6 @@ double d;
  cout<< sizeof(d);
 return 0;
 }
-
-Program 2: about multiplication of two numbers.
 
 
 #include<iostream>
