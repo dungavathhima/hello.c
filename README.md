@@ -1,6 +1,6 @@
 
 
-include <iostream>
+#include<iostream>
 int main()
 {
 using  std::cout;
@@ -10,7 +10,7 @@ return 0;
 }
 
 
-#include <iostream>
+#include<iostream>
 
 int main()
 {
@@ -21,7 +21,7 @@ return 0;
 }
 
 
-#include <iostream>
+#include<iostream>
 
 int main()
 {
@@ -31,7 +31,7 @@ char c;
 return 0;
 }
 
-#include <iostream>
+#include<iostream>
 
 int main()
 {
