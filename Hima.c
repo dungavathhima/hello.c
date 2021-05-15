@@ -11,9 +11,7 @@ return 0;
 
 
 #include<iostream>
-
-int main()
-{
+int main(){
 using  std::cout;
 int a;
  cout<< sizeof(a);
@@ -22,9 +20,7 @@ return 0;
 
 
 #include<iostream>
-
-int main()
-{
+int main(){
 using  std::cout;
 char c;
  cout<< sizeof(c);
@@ -32,9 +28,7 @@ return 0;
 }
 
 #include<iostream>
-
-int main()
-{
+int main(){
 using  std::cout;
 double d;
  cout<< sizeof(d);
