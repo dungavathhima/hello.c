@@ -1,16 +1,11 @@
-
-#include <iostream>
+#include<iostream>
 using namespace std;
-
 bool checkPrime(int n);
-
 int main() {
     int n, i;
     bool flag = false;
-
     cout << "Enter a positive  integer: ";
     cin >> n;
-
     for(i = 2; i <= n/2; ++i) {
         if (checkPrime(i)) {
             if (checkPrime(n - i)) {
@@ -19,20 +14,14 @@ int main() {
             }
         }
     }
-
-    if (!flag)
+   if (!flag)
       cout << n << " can't be expressed as sum of two prime numbers.";
-
     return 0;
 }
-
-
 bool checkPrime(int n)
 {
-    int i;
+   int i;
     bool isPrime = true;
-
-    // 0 and 1 are not prime numbers
     if (n == 0 || n == 1) {
         isPrime = false;
     }
@@ -44,6 +33,5 @@ bool checkPrime(int n)
             }
         }
     }
-
     return isPrime;
 }
